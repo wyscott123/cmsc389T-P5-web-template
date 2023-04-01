@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: Optima;
+  background-color: #FCF7FF;
+}
+
+.center {
+  width: 100%;
+  height: 30vh;
+
+  margin: 40vh;
+  margin-left: 1%;
+  margin-right: 10%;
+
+  padding-right: 20px;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #655560;
+  padding: 2%;
+  text-align: center;
+
+}
+
+.panel {
+  background-color: #655560;
+  color: #FCF7FF;
+
+  width: 100%;
+  height: 30vh;
+
+  margin-left: 2%;
+  margin-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  display: flex;
+  background-color: #655560;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.leftFooter {
+  color: #655560;
+  font-size: 14px;
+  margin: auto;
+  padding-right: 30%;
+  color: white;
+  font-size: 120%;
+}
+
+.rightFooter {
+  color: #655560;
+  font-size: 120%;
+  color: white;
+
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+}
+
+.rightFooterr {
+  color: #655560;
+  font-size: 120%;
+  padding-right: 10%;
+  color: white;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+#image {
+  height: 30vh;
+  margin: 35vh;
+
+  margin-left: 22%;
+  margin-right: 2%;
+}
+
+#logo {
+  height: 30vh;
+  /* margin: 30vh; */
+
+  margin-left: 10%;
+  margin-right: 2%;
+
+}
+
+section {
+  min-height: 100vh;
+  /* display: flex; */
+}
+
+section:nth-child(1) {
+  color: #e0ffff;
+  background-color: #e0ffff;
+
+}
+
+section:nth-child(2) {
+
+  background-color: #FCF7FF;
+
+
+}
+
+section:nth-child(3) {
+
+  background: #C4CAD0
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #655560;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #878C8F;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  margin-right: 6%;
+}
+
+.same-line {
+  display: flex;
+  justify-content: space-between;
+  background-color: #655560;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.section-header {
+  padding-top: 15vh;
+  margin: 2vh;
+}
+
+.same-line-panel {
+  display: flex;
+  margin: auto;
+  width: 100%;
+
+  margin-top: 10vh;
+
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Style all font awesome icons */
+.fa {
+  margin-left: 80%;
+  font-size: 80%;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1%;
+  height: 50vh;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
