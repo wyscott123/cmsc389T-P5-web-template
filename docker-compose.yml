@@ -10,8 +10,6 @@ services:
     networks:
       - app-network
   
-  #the nginx configuration is given below
-  #the website will run on localhost:80 
   webserver:
     image: nginx:mainline-alpine
     container_name: webserver
@@ -31,10 +29,9 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/wyscott123/Desktop/Junior Year Sem 2 Work/CMSC389T/P5-Wyatt_Scott/cmsc389T-P5-web-template
       o: bind
 
 networks:
   app-network:
-    driver: bridge 
+    driver: bridge
