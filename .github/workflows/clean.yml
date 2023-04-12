@@ -15,4 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               unalias rm
-              rm -rf <Repo-Name>
+              rm -rf cmsc389T-P5-web-template
