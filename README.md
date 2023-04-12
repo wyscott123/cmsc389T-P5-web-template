@@ -17,3 +17,4 @@ Rose quartz: #B2A3B5
 ## Changes made to html
 On top of changing the necessary things such as name and project descriptions I added my own spotify link and icon to the rest of the social media icons.
 Link to github pages: https://wyscott123.github.io/cmsc389T-P5-web-template/
+Link to terpconnect: https://terpconnect.umd.edu/~wscott1/cmsc389T-P5-web-template
